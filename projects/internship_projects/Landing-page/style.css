@@ -1,0 +1,181 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Gilroy";
+  box-sizing: border-box;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+#main{
+  width: 100%;
+  height: 100%;
+}
+
+#top{
+  width: 100%;
+  height: 60%;
+  background-image: url("img/stylish-modeling-photos-boy-for-my-landing-page-581158373.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#overlay{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.493);
+}
+
+#text{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 0 10vw;
+}
+#textright{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#textright i{
+  color: #cecbcb;
+}
+
+#textright p{
+  font-size: 12px;
+  width: 40%;
+  color: #cecbcb;
+}
+
+#textright .two{
+  color: #cecbcb;
+  font-size: 20px;
+  font-weight: 300;
+  text-shadow: 2px 4px 4px rgba(0, 3, 8, 0.5);
+}
+
+#textright .two span{
+  color: #aa0505;
+  font-size: 20px;
+  font-weight: 600;
+  text-shadow: 2px 4px 4px rgba(0, 3, 8, 0.5);
+}
+
+#text h1{
+  font-size: 6vw;
+  font-weight: 700;
+  color: #cecbcb;
+}
+
+#bottom{
+  display: flex;
+  width: 100%;
+  height: 40%;
+  background-color: rgb(0, 17, 255);
+}
+
+#bone{
+  padding: 30px;
+  width: 25%;
+  height: 100%;
+  background-color: #cecbcb;
+}
+
+#bone p{
+  padding-top: 20px;
+  font-size: 12px;
+}
+
+#btwo{
+  width: 25%;
+  height: 100%;
+  background-image: url("img/give--me-a-stylish-fashon-model-wearing-a-orange-hoodie-and-showing-her-backside-of-her-hoodie-print-13454347.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#bthree{
+  width: 20%;
+  height: 100%;
+}
+
+#bthreetop{
+  width: 100%;
+  height: 50%;
+  padding: 20px;
+  background-color: orangered;
+}
+
+#bthreetop p{
+  padding: 10px;
+  font-size: 12px;
+}
+
+#bthreebottom{
+  width: 100%;
+  height: 50%;
+  background-image: url("img/img2.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+#bfour{
+  width: 30%;
+  height: 100%;
+  background-color: #444;
+  color: #cecbcb;
+  padding: 30px;
+}
+
+.notf{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.notf #photo{
+  width: 40px;
+  height: 40px;
+  background-image: url("img/girl-image.jpeg");
+  background-size: cover;
+  border-radius: 50%;
+  background-position: center;
+}
+
+.notf p{
+  margin-top: 10px;
+  padding: 0 10px;
+  width: 90%;
+  font-size: 12px;
+}
+
+.notf2{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.notf2 #photo2{
+  width: 40px;
+  height: 40px;
+  background-image: url("img/g2.jpeg");
+  background-size: cover;
+  border-radius: 50%;
+  background-position: center;
+}
+
+.notf2 p{
+  margin-top: 10px;
+  padding: 0 10px;
+  width: 90%;
+  font-size: 12px;
+}

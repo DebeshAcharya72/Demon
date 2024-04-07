@@ -1,0 +1,5 @@
+{
+  "git.detectSubmodules": true,
+  "git.enabled": true,
+  "terminal.integrated.confirmOnKill": "never"
+}

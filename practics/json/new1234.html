@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaScript</title>
+</head>
+<body>
+    
+
+    <script>
+        // write a javaScript program to check two given non-negative integers if one (not both) is a multiple of 7 or 11.
+
+        function isMultipleOf7Or11(num) {
+    return (num % 7 === 0 || num % 11 === 0);
+}
+
+function checkMultiples(num1, num2) {
+    const isNum1Multiple = isMultipleOf7Or11(num1);
+    const isNum2Multiple = isMultipleOf7Or11(num2);
+
+    if ((isNum1Multiple || isNum2Multiple) && !(isNum1Multiple && isNum2Multiple)) {
+        console.log("Exactly one of the numbers is a multiple of 7 or 11.");
+    } else {
+        console.log("Neither or both of the numbers are multiples of 7 or 11.");
+    }
+}
+
+
+const number1 = 21; 
+const number2 = 14;
+
+checkMultiples(number1, number2);
+
+    </script>
+</body>
+</html>
